@@ -112,10 +112,10 @@ body {
 SCSS file that uses _base.scss
 ```scss
 // styles.scss
-@use 'base';
+@import 'base';
 
 .inverse {
-  background-color: base.$primary-color;
+  background-color: $primary-color;
   color: white;
 }
 ```
